@@ -9,7 +9,7 @@ function Hero() {
       </div>
       <div className="relative flex flex-col items-center justify-center min-h-screen px-4 py-16">
         <h1 className="text-6xl md:text-7xl font-extrabold leading-tight text-center">
-          Welcome to 4-Loop, <span className="text-black">Taimoor</span> <span className="text-yellow-300 ">Hamza..Kabir..Wania.</span>
+          Welcome to <span className="text-black">4-Loop</span>
         </h1>
         <p className="mt-6 text-lg md:text-xl text-center max-w-2xl">
           A collaborative workspace for teams to create and work together seamlessly on projects, combining flexible pages with reusable components that sync across different apps.
@@ -30,16 +30,16 @@ function Hero() {
         </div>
         <div className="hidden md:flex justify-between mt-12 w-full max-w-4xl">
           <div className="text-left">
-            <h6 className="text-lg font-semibold">The lowest price</h6>
+            <h6 className="text-lg font-semibold">Affordable Pricing</h6>
             <p className="text-sm">Competitive rates for every project.</p>
           </div>
           <div className="text-left">
-            <h6 className="text-lg font-semibold">The fastest on the market</h6>
-            <p className="text-sm">Delivering results at lightning speed.</p>
+            <h6 className="text-lg font-semibold">Lightning Fast</h6>
+            <p className="text-sm">Delivering results with speed and efficiency.</p>
           </div>
           <div className="text-left">
-            <h6 className="text-lg font-semibold">The most loved</h6>
-            <p className="text-sm">Join a community of satisfied users.</p>
+            <h6 className="text-lg font-semibold">User-Favorite</h6>
+            <p className="text-sm">Join a growing community of happy users.</p>
           </div>
         </div>
       </div>
