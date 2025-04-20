@@ -5,11 +5,17 @@ import React from 'react'
 function DocumentHeader() {
   return (
     <div className='flex justify-between items-center p-3 px-7 shadow-md'>
-        <div></div>
-        <OrganizationSwitcher/>
-        <div className='flex gap-2'>
-            <UserButton/>
-        </div>
+      <div></div>
+      <OrganizationSwitcher
+        afterSelectOrganizationUrl="/dashboard"
+        afterCreateOrganizationUrl="/dashboard"
+        afterLeaveOrganizationUrl="/dashboard"
+        afterSelectPersonalUrl="/dashboard" // <- this is the missing piece!
+      />
+
+      <div className='flex gap-2'>
+        <UserButton />
+      </div>
     </div>
   )
 }

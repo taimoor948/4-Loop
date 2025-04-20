@@ -5,7 +5,7 @@ import { Room } from '@/app/Room'
 function Workspace({params}) {
   return (
     <div>
-      <Room params={params}>
+      <Room params={params} >
         <SideNav params={params} />
         </Room>
     </div>

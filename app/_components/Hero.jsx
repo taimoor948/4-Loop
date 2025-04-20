@@ -9,7 +9,6 @@ function Hero() {
       </div>
       <div className="relative flex flex-col items-center justify-center min-h-screen px-4 py-16">
         <h1 className="text-6xl md:text-7xl font-extrabold leading-tight text-center">
-
           Welcome to <span className="text-black">4-Loop</span>
 
         </h1>
@@ -23,16 +22,10 @@ function Hero() {
           >
             Get Started
           </a>
-          <a
-            href="#"
-            className="px-8 py-3 border border-white rounded-lg bg-transparent transition-all hover:bg-white hover:text-blue-500"
-          >
-            Learn More
-          </a>
+          
         </div>
         <div className="hidden md:flex justify-between mt-12 w-full max-w-4xl">
           <div className="text-left">
-
             <h6 className="text-lg font-semibold">Affordable Pricing</h6>
             <p className="text-sm">Competitive rates for every project.</p>
           </div>
@@ -43,7 +36,6 @@ function Hero() {
           <div className="text-left">
             <h6 className="text-lg font-semibold">User-Favorite</h6>
             <p className="text-sm">Join a growing community of happy users.</p>
-
           </div>
         </div>
       </div>
